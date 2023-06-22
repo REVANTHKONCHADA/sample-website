@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  font-display: rgb(3, 119, 80);
+  font-display: rgb(171, 150, 148);
   center-heading {
     color: BLUE(200, 255, 0);
   margin: 100 600;
@@ -87,7 +87,7 @@ nav.index li {
 
 nav.index a {
   text-decoration: none;
-  color: #1dab9d;
+  color: #ab851d;
 }
 
 main {
@@ -99,7 +99,7 @@ section {
 }
 
 section h2 {
-  color: red;
+  color: rgb(203, 43, 8);
 }
 
 footer {
