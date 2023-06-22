@@ -5,8 +5,8 @@ body {
   font-display: rgb(3, 119, 80);
   center-heading {
     color: BLUE(200, 255, 0);
-  margin: 0;
-  padding: 0;
+  margin: 100 600;
+  padding: 10px 10%;
 }
 
 
@@ -15,22 +15,71 @@ header {
   color: #fff;
   text-align: center;
   padding: 20px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 
 }
 
 nav.index {
-  background-color: #312424;
-  padding: 10px;
+  background-color: #191515;
+  width: 100%;
+  
+  position:relative ;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  box-sizing: border-box;
+  
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap ;
+  
+ 
+ 
+
+  padding: 0;
+}
+nav.index ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+
 }
 
-nav.index ul {
-  list-style: none;
+nav.index ul  a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+
   display: flex;
-  justify-content: center;
-  align-items: right;
+  
+  position: relative;
+  
 }
+nav.index  li a::after{
+  content: '';
+  width: 100;
+  height: 3px;
+  background:#9f2e2e ;
+  position:absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav.index  li a:hover::after{
+  width: 100%;
+
+}
+
+
+
 
 nav.index li {
   margin: 0 10px;
@@ -204,6 +253,7 @@ body header {
   background-position: center;
   color: #fff;
   text-align: center;
+  margin: 100 600;
   padding: 20px;
 }
 body 
@@ -233,6 +283,28 @@ header {
     opacity: 1;
   }
 }
+.header-text{
+  margin-top: 0;
+  font-size: 30px;
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+
+  
+}
+.header-text h1 span{
+  color: red;
+}
+ 
+.header-text{
+  padding: 10px 10%;
+
+}
+
+  
+
 
 
 /* Rest of the CSS code */
+
