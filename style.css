@@ -371,3 +371,27 @@ header {
   width: 100%;
   height: auto;
 }
+.main p i{
+  color: #ff004f;
+  font-size: 25px;
+
+}
+.main {
+  font-size: 25px;
+}
+.skill ul li i{
+  color:#ff004f;
+  font-size: 25px;
+}
+.web p  a i{
+  color:#194886;
+  font-size: 25px;
+}
+.card-body h5{
+  color:#6fb2a3;
+  font-size: 15px;
+
+}
+.card-body a{
+  color: #8f516d;
+}
