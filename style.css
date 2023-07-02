@@ -17,12 +17,13 @@ header {
   width: 100%;
   background-size: cover;
   background-position: center;
+  align-items: center;
 }
 
 
 }
 
-nav.index {
+.index {
   background-color: #191515;
   width: 100%;
   
@@ -104,7 +105,7 @@ section h2 {
 }
 
 footer {
-  background-color: #333;
+  background-color: #383434;
   color: #fff;
   padding: 20px;
 }
@@ -124,7 +125,7 @@ footer h3 {
 }
 
 footer .social-links a {
-  color: #ffffff11;
+  color: #e7e0e011;
   margin-right: 10px;
 }
 
@@ -376,6 +377,9 @@ header {
   font-size: 25px;
 
 }
+.main {
+  font-size: px;
+}
 .skill ul li i{
   color:#ff004f;
   font-size: 25px;
@@ -391,4 +395,61 @@ header {
 }
 .card-body a{
   color: #8f516d;
+}
+.index ul i{
+  display: none;
+}
+.index  i{
+  display: none;
+}
+.btn.btn2{
+  display: inline-block;
+  background: #ff004f;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .hearder-text{
+    margin-top: 100%;
+    font-size: 16px;
+   }
+  
+  .header-text h1{
+    font-size: 40px;
+
+  }
+  .index ul i{
+    display: block;
+    font-size:25px
+
+  }
+  .index ul {
+
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    height: 100vh;
+    padding-top:50px;
+    z-index: 2;
+    
+        
+  }
+  .index ul li {
+    display: block;
+    margin: 25px;
+  }
+  .index  ul i{
+    
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    
+
+  }
+  .index i{
+    display: block;
+  }
 }
