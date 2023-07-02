@@ -428,8 +428,8 @@ header {
     background: #ff004f;
     position: fixed;
     top: 0;
-    right: -200px;
-    width: 200px;
+    right: -150px;
+    width: 150px;
     height: 100vh;
     padding-top:50px;
     z-index: 2;
