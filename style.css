@@ -428,8 +428,8 @@ header {
     background: #ff004f;
     position: fixed;
     top: 0;
-    right: -150px;
-    width: 150px;
+    right: -200px;
+    width: 200px;
     height: 100vh;
     padding-top:50px;
     z-index: 2;
@@ -451,5 +451,6 @@ header {
   }
   .index i{
     display: block;
+    font-size: 30px;
   }
 }
