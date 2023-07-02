@@ -30,17 +30,20 @@
 
   <nav class="index">
     <div class="index">
-    <ul>
-     <h6><li><a href="#about">About</a></li>
+    <ul id="sidemenu">
+     <li><a href="#about">About</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#internships">Internships</a></li>
       <li><a href="#Projects">Projects</a></li>
       <li><a href="#resume">Resume</a></li>
       <li><a href="#contact">Contact </a></li>
-      <li><a href="#Social connect">Social connect</a></li></h6>
-     
+      <li><a href="#Social connect">Social connect</a></li>    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    
+   
     </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+   
     </div>
   </nav>
   <marquee bgcolour="red" >I am an engineer made this website to display my portfolio.you can Follow me in social media through FOLLOW me section  </marquee>
@@ -161,7 +164,7 @@
     
     <section id="resume">
       <h2>Resume</h2>
-      <a href="resume.pdf" target="_blank" <p style="color :rgb(28, 184, 11);" >Download resume</p></a>
+      <a href="resume.pdf" class="btn btn2" target="_blank" <p style="color :rgb(233, 238, 232);" >Download resume</p></a>
     </section>
     <p style="background-image: url('qw.jpg');"></p>
   </main>
@@ -190,6 +193,18 @@
   <a target = "blank" href='https://www.facebook.com/revanth.konchada.9/'><i class='fab fa-facebook'></i></a>
   <a target = "blank" href='https://www.instagram.com/revanth_roy_7?igshid=ZDc4ODBmNjiMnQ=='><i class='fab fa-instagram'></i></a></section>
 </div>
+
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right="0";
+  }
+  function closemenu(){
+    sidemeu.style.right="-200px";
+  }
+</script>
+
+
 
 
 
